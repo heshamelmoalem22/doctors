@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: 0; */
+}
+/* start header section */
+header{
+    background-image: url(download.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: -13px;
+}
+/* start navbar section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 79px;
+    margin-right: 11px;
+    
+}
+nav div:nth-of-type(2) {
+    display: flex;
+    
+}
+a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 54px;
+    color: #fff;
+}
+img{
+    width: 156px;
+    margin-left: 68px;
+}
+button{ 
+    font-size: larger;
+    background-color: hsl(8.24deg 78.44% 67.25%);
+    border: none;
+    border-radius: 2px;
+    padding-right: 23px;
+    padding-left: 20px;
+    height: 33px;
+    color: white;
+    text-align: center;
+}
+.button{
+    margin-right: 222px;
+}
+/* end navbar section */
+header h3 {
+    margin-top: 130px;
+    margin-left: 45px;
+    font-size: 39px;
+    line-height: 69px;
+    background-color: hsl(159.05deg 26.81% 53.92%);
+    background-size: cover;
+    padding: 51px 75px 52px 48px;
+    color: #fff;
+    font-family: monospace;
+    border-radius: 30px;
+}
+/* end header section */
+/* start clinic section */
+.lion h4{
+    text-align: center;
+    margin-top: 39px;
+    font-size: xx-large;
+    font-family: cursive;
+    
+}
+hr{
+    width: 200px;
+    background-color: orangered;
+    height: 4px;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    border-radius: 19px;
+}
+.arc-1{
+    margin-top: 90px;
+}
+
+.arc-1 img{
+    width: 430px;
+    
+}
+.arc-1 h1{
+    color: hsl(184.9deg 42.24% 45.49%);
+}
+.arc-1 p{
+    font-size: 20px;
+    font-family: cursive;
+}
+/* end clinic section */
+/* start four container section  */
+.arc-2{
+    margin-top: 50px;
+    background-image: url(Path\ 62.png), url(i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 626px;
+}
+h5{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+h6{
+    font-size: large;
+}
+h7 {
+    font-size: larger;
+    font-family: monospace;
+}
+.arc-2 img {
+    width: 201px;
+    margin-left: 6px;
+    margin-top: 13px;
+    margin-right: 23px;
+    margin-bottom: 20px 
+    
+}
+.col-md-3{
+    border-radius: 3px;
+}
+.bg-light{
+    border-radius: 15px;
+}
+/* end four container section  */
+/* start footer section  */
+.footer{
+    margin-top: 20px;
+    background-image: url(lan.png);
+    background-size: cover;
+    border-radius: 172px 172px 0px 0px;
+    margin-top: 98px;
+    padding: 50px;
+    color: #fff;
+}
+h8{
+    font-size: 56px;
+    font-family: cursive;
+}
+.footer p{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 57px;
+    margin-top: 20px;
+}
+.footer h1{
+    font-size: x-large;
+    color:hsl(7.69deg 84.17% 72.75%);
+}
+ul{
+    list-style:none;
+}
+/* end footer section  */
